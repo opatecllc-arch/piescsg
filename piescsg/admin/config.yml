@@ -2,6 +2,7 @@ backend:
   name: github
   repo: Opatecllc-arch/piescsg
   branch: main
+  base_path: "piescsg"
 
 media_folder: "images"
 public_folder: "/images"
