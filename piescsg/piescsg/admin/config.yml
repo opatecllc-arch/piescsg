@@ -2,8 +2,9 @@ backend:
   name: github
   repo: Opatecllc-arch/piescsg
   branch: main
+  base_path: "piescsg"
 
-media_folder: "images"
+media_folder: "piescsg/images"
 public_folder: "/images"
 
 collections:
@@ -12,7 +13,7 @@ collections:
     files:
       - name: "home"
         label: "Home Page"
-        file: "index.html"
+        file: "piescsg/index.html"
         fields:
           - {label: "Hero Title", name: "hero-title", widget: "string"}
           - {label: "Hero Description", name: "hero-desc", widget: "text"}
