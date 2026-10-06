@@ -1,0 +1,27 @@
+backend:
+  name: github
+  repo: Opatecllc-arch/piescsg
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - name: "home"
+        label: "Home Page"
+        file: "index.html"
+        fields:
+          - {label: "Hero Title", name: "hero-title", widget: "string"}
+          - {label: "Hero Description", name: "hero-desc", widget: "text"}
+          - {label: "Services Title", name: "services-title", widget: "string"}
+          - {label: "Services Description", name: "services-desc", widget: "text"}
+          - {label: "Singapore Support Services", name: "singapore-content", widget: "text"}
+          - {label: "Workspace Products", name: "workspace-content", widget: "text"}
+          - {label: "Series A Products", name: "series-a", widget: "list"}
+          - {label: "Series B Products", name: "series-b", widget: "list"}
+          - {label: "Why Choose Us", name: "why-us", widget: "list"}
+          - {label: "About Content", name: "about-content", widget: "text"}
+          - {label: "Contact Info", name: "contact-info", widget: "text"}
